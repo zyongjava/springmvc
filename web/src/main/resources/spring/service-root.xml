@@ -11,8 +11,5 @@
     <!-- service业务逻辑 -->
     <import resource="biz-service.xml"/>
 
-    <!-- elastic jobs -->
-   <!-- <import resource="elastic-job.xml"/>-->
-
 </beans>
 

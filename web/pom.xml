@@ -63,16 +63,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- elastic-job -->
-        <dependency>
-            <groupId>com.dangdang</groupId>
-            <artifactId>elastic-job-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.dangdang</groupId>
-            <artifactId>elastic-job-spring</artifactId>
-        </dependency>
-
         <!-- 单元测试 -->
         <dependency>
             <groupId>junit</groupId>
@@ -138,12 +128,6 @@
             <plugin>
                 <artifactId>maven-source-plugin</artifactId>
             </plugin>
-            <plugin>
-                <groupId>com.alibaba.citrus.tool</groupId>
-                <artifactId>springext-maven-plugin</artifactId>
-                <version>1.2</version>
-            </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>

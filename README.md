@@ -23,4 +23,5 @@ CREATE TABLE user_info
   2. mvn eclipse:clean eclipse:eclipse
   3. mvn clean install -Dmaven.test.skip=true -U
   4. 启动tomcat直接运行
+  5. 访问: http://localhost:8080/get.htm
 
