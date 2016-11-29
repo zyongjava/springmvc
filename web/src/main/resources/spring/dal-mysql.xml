@@ -81,12 +81,12 @@
         <property name="configLocation"
                   value="classpath:mybatis/springmvc-mysql-sqlmap-config.xml"/>
         <property name="mapperLocations" value="classpath*:mybatis/mapper/*.xml"/>
-        <property name="typeAliasesPackage" value="cn.springmvc.dal.mysql.object"/>
+        <property name="typeAliasesPackage" value="cn.pomelo.dal.mysql.object"/>
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
     <bean name="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="cn.springmvc.dal.mysql.dao"/>
+        <property name="basePackage" value="cn.pomelo.dal.mysql.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
     <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END DAO定义 配置 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
@@ -99,7 +99,7 @@
 
     <aop:config>
         <aop:pointcut id="defaultServiceOperation"
-                      expression="execution(* cn.springmvc.biz.service.impl.*ServiceImpl.*(..))"/>
+                      expression="execution(* cn.pomelo.biz.service.impl.*ServiceImpl.*(..))"/>
         <aop:advisor pointcut-ref="defaultServiceOperation" advice-ref="defaultTxAdvice"/>
     </aop:config>
 

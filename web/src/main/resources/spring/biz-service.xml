@@ -13,7 +13,7 @@
     <context:annotation-config/>
 
     <!-- ===================== 定义扫描根路径为，不使用默认的扫描方式 =================== -->
-    <context:component-scan base-package="cn.springmvc.biz.service" use-default-filters="false">
+    <context:component-scan base-package="cn.pomelo.biz.service" use-default-filters="false">
         <!-- 扫描符合@Service @Component @Repository的类 -->
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Service"/>
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>

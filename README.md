@@ -15,6 +15,8 @@ CREATE TABLE user_info
     gmt_create DATETIME,
     gmt_modified DATETIME
 );
+
+INSERT user_info(name, age, gmt_create, gmt_modified) values("zhangsan", 16, "2016-11-30 10:46:50", "2016-11-30 10:47:50");
 ```
 
 #### 部署方式

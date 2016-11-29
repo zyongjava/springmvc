@@ -11,7 +11,7 @@
                       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!-- 设置扫描注解的类所在的目录 -->
-    <context:component-scan base-package="cn.springmvc.web" />
+    <context:component-scan base-package="cn.pomelo.web" />
 
     <!-- 启动注解 -->
     <mvc:annotation-driven>

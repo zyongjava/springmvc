@@ -1,7 +1,7 @@
-package cn.springmvc.web.controller;
+package cn.pomelo.web.controller;
 
-import cn.springmvc.biz.service.intf.UserService;
-import cn.springmvc.dal.mysql.object.UserDO;
+import cn.pomelo.biz.service.intf.UserService;
+import cn.pomelo.dal.mysql.object.UserDO;
 import com.alibaba.fastjson.JSON;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -31,7 +31,7 @@ public class Monitor {
     public String getList(String name, Integer age) {
         List<UserDO> userDOList = userService.queryByParam(name, age);
 
-        return String.format("get result = {}.", JSON.toJSONString(userDOList));
+        return String.format("get result = %s.", JSON.toJSONString(userDOList));
     }
 
 }

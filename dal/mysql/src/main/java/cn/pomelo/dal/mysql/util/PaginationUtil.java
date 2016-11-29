@@ -1,4 +1,4 @@
-package cn.springmvc.dal.mysql.util;
+package cn.pomelo.dal.mysql.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

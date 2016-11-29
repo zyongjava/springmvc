@@ -1,4 +1,4 @@
-package cn.springmvc.biz.common.constant;
+package cn.pomelo.biz.common.constant;
 
 /**
  * 常量<br/>

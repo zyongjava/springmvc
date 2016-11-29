@@ -10,6 +10,6 @@
     </settings>
 	<!-- 设置别名 -->
 	<typeAliases>
-		<typeAlias alias="UserDO" type="cn.springmvc.dal.mysql.object.UserDO" />
+		<typeAlias alias="UserDO" type="cn.pomelo.dal.mysql.object.UserDO" />
 	</typeAliases>
 </configuration>

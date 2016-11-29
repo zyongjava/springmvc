@@ -1,6 +1,6 @@
-package cn.springmvc.biz.service.intf;
+package cn.pomelo.biz.service.intf;
 
-import cn.springmvc.dal.mysql.object.UserDO;
+import cn.pomelo.dal.mysql.object.UserDO;
 
 import java.util.List;
 

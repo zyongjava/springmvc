@@ -1,8 +1,8 @@
-package cn.springmvc.dal.mysql.dao;
+package cn.pomelo.dal.mysql.dao;
 
 import java.util.List;
 
-import cn.springmvc.dal.mysql.object.UserDO;
+import cn.pomelo.dal.mysql.object.UserDO;
 import org.apache.ibatis.annotations.Param;
 
 /**

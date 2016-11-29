@@ -1,8 +1,8 @@
-package cn.springmvc.biz.service.impl;
+package cn.pomelo.biz.service.impl;
 
-import cn.springmvc.biz.service.intf.UserService;
-import cn.springmvc.dal.mysql.dao.UserDao;
-import cn.springmvc.dal.mysql.object.UserDO;
+import cn.pomelo.biz.service.intf.UserService;
+import cn.pomelo.dal.mysql.dao.UserDao;
+import cn.pomelo.dal.mysql.object.UserDO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

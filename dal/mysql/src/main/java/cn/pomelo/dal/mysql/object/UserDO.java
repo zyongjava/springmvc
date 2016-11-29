@@ -1,4 +1,4 @@
-package cn.springmvc.dal.mysql.object;
+package cn.pomelo.dal.mysql.object;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
